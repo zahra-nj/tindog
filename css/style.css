@@ -1,0 +1,189 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* container section */
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+/* sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: #ffff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+/* navigation brand */
+.navbar{
+    padding: 0 0 2.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+
+/* Download Buttons  */
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* title image */
+
+#title{
+    position: relative;
+    text-align: left;
+}
+
+.title-text{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+.title-image{
+    width: 60%;    
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Features section */
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    /* z-index: 1;    از روی پی دی اف آنجلا یو اگه هر دوتا پوزیشن داشته باشند و هر دوتا زد-ایندکس نداشته باشند، و هر دو المنت در 
+    کد پشت هم نوشته شده باشند پس -> اونی که پایینتره میاد بالاتر. به همین خاطر به این خط کد دیگه نیاز نیست.*/
+}
+
+.feature-icons{
+    color: #ef8172;
+    margin-bottom: 1.2rem;
+}
+
+.feature-icons:hover{
+    color: #ff4c68;
+}
+.features-title{
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.features-description{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+
+
+/* testimonials section */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonials-description{
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.testimonials-images{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.pricing-description{
+    font-size: 1.5rem;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+/* Call to Action section */
+
+#cta{
+    padding: 8% 15% 4%;
+}
+
+.cta-desciption{
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+
+/* footer section */
+#footer{
+    padding: 5% 15% 3%;
+}
+
+.footer-icons{
+    padding: 20px 10px ;
+    font-size: 1.3rem;
+}
+    
+
+@media (max-width:992px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+    }
+}
